@@ -9,5 +9,5 @@ import (
 func main() {
 	router := gin.Default()
 	router.StaticFS("/", http.Dir("C:/Users/runed/Projects/reactReduxGo"))
-	router.Run(":8080")
+	router.Run(":8000")
 }
